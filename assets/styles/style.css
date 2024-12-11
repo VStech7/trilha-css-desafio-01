@@ -1,0 +1,217 @@
+/*Define o reset do CSS*/
+@import url(./reset.css);
+
+/*Define o background do body*/
+body {
+    background-color: black;
+}
+
+/*Define o estilo do banner*/
+.banner {
+    background-image: url(./assets/images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(49, 168, 221, 0.3) 50%, rgba(0, 0, 0, 0.8) 100%);
+    background-size: cover;
+    height: 605px;
+    border-bottom: solid 1px #33A8DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Define um banner-content*/
+.banner-content {
+    width: 780px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.banner-content h1 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+    padding: 20px 0px 20px 0px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content p {
+    width: 510px;
+    font-weight: 400;
+    line-height: 26.4px;
+    font-size: 19px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    
+}
+
+button {
+    width: 320px;
+    height: 50px;
+    font-family: Raleway;
+    font-weight: 900;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 0.2em;
+    background-color: transparent;
+    font-size: 20px;
+    color: #3BA1CD;
+    border: 2px solid transparent;
+    padding: 10px 10px;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3BA1CD;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+#course-content {
+    width:792px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    color: white;  
+}
+
+
+
+#course-content h2 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.57px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    padding: 20px 0px 20px 0px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+}
+
+#course-content p {
+    width: 792px;
+    font-weight: 200;
+    line-height: 20px;    
+    font-size: 15px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.module-1 {
+    width: 535px;
+    height: 51px;
+    border: solid 1px #33A8DB;
+    border-radius: 30px;
+    background-color: #283c44;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.module-1 span {
+    color: #1472B7;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.module-2 {
+    width: 535px;
+    height: 51px;
+    border: solid 1px #33A8DB;
+    border-radius: 30px;
+    background-color: #283c44;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.module-2 span {
+    color: #1472B7;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.module-3 {
+    width: 535px;
+    height: 51px;
+    border: solid 1px #33A8DB;
+    border-radius: 30px;
+    background-color: #283c44;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-3 span {
+    color: #1472B7;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+section {
+    margin: 100px auto;
+}
+#transform-world {
+    background-image: url(./assets/images/woman-code.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;    
+    display: flex;
+}
+
+#transform-world p  {
+    background-color: red;
+    color: white;
+    text-shadow: #33A8DB;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 30px;       
+    
+}
+
